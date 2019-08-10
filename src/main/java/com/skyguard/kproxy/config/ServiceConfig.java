@@ -1,6 +1,8 @@
 package com.skyguard.kproxy.config;
 
-public class ServiceConfig {
+import java.io.Serializable;
+
+public class ServiceConfig implements Serializable{
 
     private String ip;
     private int port;
